@@ -1,0 +1,39 @@
+body {
+  font-family: "Noto Serif Japanese";
+  background: #ffff;
+}
+
+h1 {
+  color: #3bb2db;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 400px;
+}
+
+.task {
+  color: #3bb2db;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.todos li {
+  background: #f7f7f7;
+}
+
+/* 追加 */
+.delete {
+  cursor: pointer;
+  color: #3bb2db;
+}
+
+.filtered {
+  display: none !important;
+}
